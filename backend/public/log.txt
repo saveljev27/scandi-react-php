@@ -1,0 +1,91 @@
+Received deleted data: Array
+(
+    [0] => SKU21341
+    [1] => SKU23241
+)
+
+Received deleted data: Array
+(
+    [skus] => Array
+        (
+            [0] => 288
+        )
+
+)
+
+Received deleted data: Array
+(
+    [skus] => Array
+        (
+            [0] => 277
+            [1] => 657657
+        )
+
+)
+
+Received deleted data: Array
+(
+    [skus] => Array
+        (
+            [0] => 323
+        )
+
+)
+
+Received deleted data: Array
+(
+    [skus] => Array
+        (
+            [0] => 323
+        )
+
+)
+
+Received deleted data: Array
+(
+    [skus] => Array
+        (
+            [0] => 323
+        )
+
+)
+
+Received deleted data: Array
+(
+    [skus] => Array
+        (
+            [0] => test228
+            [1] => 3213
+        )
+
+)
+
+Received deleted data: Array
+(
+    [skus] => Array
+        (
+            [0] => 3213
+        )
+
+)
+
+Received deleted data: Array
+(
+    [skus] => Array
+        (
+            [0] => test
+        )
+
+)
+
+Received deleted data: Array
+(
+    [skus] => Array
+        (
+            [0] => SKU12342
+            [1] => test2996
+            [2] => test28
+        )
+
+)
+

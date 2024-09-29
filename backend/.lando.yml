@@ -1,0 +1,12 @@
+name: scandiweb-project
+recipe: lamp
+config:
+  php: 8.2
+  webroot: public
+services:
+  phpmyadmin:
+    type: phpmyadmin
+  appserver:
+    type: php:8.2
+    build_as_root:
+      - a2enmod rewrite
