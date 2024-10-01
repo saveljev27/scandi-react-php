@@ -10,13 +10,11 @@ class Route
         private $action
     ) {}
 
-    // Instance class Route GET
     public static function get(string $uri, $action): static
     {
         return new static($uri, 'GET', $action);
     }
 
-    // Instance class Route POST
     public static function post(string $uri, $action): static
     {
         return new static($uri, 'POST', $action);

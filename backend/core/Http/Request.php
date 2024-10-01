@@ -14,8 +14,7 @@ class Request implements RequestInterface
         public readonly array $server,
         public readonly array $files,
         public readonly array $cookies,
-    ) {
-    }
+    ) {}
 
     public static function createFromGlobals(): static
     {

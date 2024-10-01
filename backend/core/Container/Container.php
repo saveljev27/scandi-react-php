@@ -26,10 +26,8 @@ class Container
     // Services
     public readonly RouterInterface $router;
     public readonly RequestInterface $request;
-    public readonly ViewInterface $view;
     public readonly ValidatorInterface $validator;
     public readonly RedirectInterface $redirect;
-    public readonly SessionInterface $session;
     public readonly ConfigInterface $config;
     public readonly DatabaseInterface $database;
     public readonly ProductService $productService;
@@ -46,11 +44,9 @@ class Container
         $this->database = new Database($this->config);
         $this->productService = new ProductService($this->database);
         $this->validator = new Validator($this->productService);
-        $this->session = new Session();
-        $this->view = new View($this->session);
         $this->request = Request::createFromGlobals();
         $this->request->setValidator($this->validator);
         $this->redirect = new Redirect();
-        $this->router = new Router($this->view, $this->request, $this->redirect, $this->session, $this->database);
+        $this->router = new Router($this->request, $this->redirect, $this->database);
     }
 }

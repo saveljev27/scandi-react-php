@@ -1,72 +1,12 @@
 'use client';
 
-import React, { useState } from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-
-import { ProductFormProps } from '@/types';
 import { Alert, Input } from '@/components';
+import { useAddProduct } from '@/hooks/addProduct';
 
 const ProductForm = () => {
-  const [errors, setErrors] = useState<Record<string, string[]>>({});
-  const [formData, setFormData] = useState<ProductFormProps>({
-    sku: '',
-    name: '',
-    price: '',
-    product_type: '',
-    size: '',
-    weight: '',
-    height: '',
-    width: '',
-    length: '',
-  });
-  const router = useRouter();
-
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-
-    try {
-      const response = await fetch(
-        'http://scandiweb-project.lndo.site/api/products',
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(formData),
-        }
-      );
-
-      const data = await response.json();
-      console.log(data);
-
-      if (!response.ok) {
-        setErrors(data.errors);
-      } else {
-        setFormData({
-          sku: '',
-          name: '',
-          price: '',
-          product_type: '',
-          size: '',
-          weight: '',
-          height: '',
-          width: '',
-          length: '',
-        });
-        setErrors({});
-        router.push('/');
-      }
-    } catch (error) {
-      console.error('Error:', error);
-    }
-  };
-  const handleInputChange = (name: string, value: string) => {
-    setFormData((prevFormData) => ({
-      ...prevFormData,
-      [name]: value,
-    }));
-  };
+  const { errors, formData, setFormData, handleSubmit, handleInputChange } =
+    useAddProduct();
 
   return (
     <form id="products-form" className="container" onSubmit={handleSubmit}>
@@ -134,27 +74,34 @@ const ProductForm = () => {
         </div>
 
         {formData.product_type === 'DVD' && (
-          <Input
-            name="size"
-            placeholder="Size (MB)"
-            value={formData.size || ''}
-            onChange={handleInputChange}
-            errors={errors}
-          />
+          <>
+            <p className="fw-light mb-0">Please, provide DVD size in MB</p>
+            <Input
+              name="size"
+              placeholder="Size (MB)"
+              value={formData.size || ''}
+              onChange={handleInputChange}
+              errors={errors}
+            />
+          </>
         )}
-
         {formData.product_type === 'Book' && (
-          <Input
-            name="weight"
-            placeholder="Weight (KG)"
-            value={formData.weight || ''}
-            onChange={handleInputChange}
-            errors={errors}
-          />
+          <>
+            <p className="fw-light mb-0">Please, provide Book weight in KG</p>
+            <Input
+              name="weight"
+              placeholder="Weight (KG)"
+              value={formData.weight || ''}
+              onChange={handleInputChange}
+              errors={errors}
+            />
+          </>
         )}
-
         {formData.product_type === 'Furniture' && (
           <>
+            <p className="fw-light mb-0">
+              Please, provide dimensions in (H x W x L) format
+            </p>
             <Input
               name="height"
               placeholder="Height (CM)"

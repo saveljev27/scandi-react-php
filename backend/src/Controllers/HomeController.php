@@ -13,11 +13,6 @@ class HomeController extends Controller
     {
 
         $products = new ProductService($this->db());
-
-
-        $this->view('home', [
-            'products' => $products->showProducts(),
-        ], 'Product List');
     }
     public function destroy(): void
     {

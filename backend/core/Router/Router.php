@@ -6,7 +6,6 @@ use App\Core\Database\DatabaseInterface;
 use App\Core\Http\RedirectInterface;
 use App\Core\Http\RequestInterface;
 use App\Core\Session\SessionInterface;
-use App\Core\View\ViewInterface;
 
 class Router implements RouterInterface
 {
@@ -17,17 +16,14 @@ class Router implements RouterInterface
 
     public function __construct(
 
-        private ViewInterface $view,
         private RequestInterface $request,
         private RedirectInterface $redirect,
-        private SessionInterface $session,
         private DatabaseInterface $database,
 
     ) {
         $this->initRoutes();
     }
 
-    // Вызывает функцию, которая сохраняется в методе и используется в App.php
     public function dispatch(string $uri, string $method): void
     {
         $route = $this->findRoute($uri, $method);
@@ -42,10 +38,8 @@ class Router implements RouterInterface
 
             /** @var Controller $controller */
             $controller = new $controller();
-            call_user_func([$controller, 'setView'], $this->view);
             call_user_func([$controller, 'setRequest'], $this->request);
             call_user_func([$controller, 'setRedirect'], $this->redirect);
-            call_user_func([$controller, 'setSession'], $this->session);
             call_user_func([$controller, 'setDatabase'], $this->database);
             call_user_func([$controller, $action]);
         } else {

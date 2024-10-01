@@ -9,6 +9,17 @@ export interface ProductFormProps {
   width?: string;
   length?: string;
 }
+export const defaultFormData: ProductFormProps = {
+  sku: '',
+  name: '',
+  price: '',
+  product_type: '',
+  size: '',
+  weight: '',
+  height: '',
+  width: '',
+  length: '',
+};
 
 export interface ProductProps {
   sku: string;
