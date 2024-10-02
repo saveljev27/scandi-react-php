@@ -18,14 +18,10 @@ class ComposerStaticInite7fba73631df14452131fa7a3e8515d9
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\VarDumper\\' => 28,
         ),
-        'D' => 
-        array (
-            'Database\\Seeders\\' => 17,
-            'Database\\Factories\\' => 19,
-        ),
         'A' => 
         array (
             'App\\Core\\' => 9,
+            'App\\Config\\' => 11,
             'App\\' => 4,
         ),
     );
@@ -39,22 +35,17 @@ class ComposerStaticInite7fba73631df14452131fa7a3e8515d9
         array (
             0 => __DIR__ . '/..' . '/symfony/var-dumper',
         ),
-        'Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/laravel/pint/database/seeders',
-        ),
-        'Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/laravel/pint/database/factories',
-        ),
         'App\\Core\\' => 
         array (
             0 => __DIR__ . '/../..' . '/core',
         ),
+        'App\\Config\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/config',
+        ),
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
-            1 => __DIR__ . '/..' . '/laravel/pint/app',
         ),
     );
 

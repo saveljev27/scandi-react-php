@@ -2,10 +2,10 @@
 
 return [
     'driver' => 'mysql',
-    'host' => 'scandiwebproject_database_1',
+    'host' => 'sql208.infinityfree.com',
     'port' => '3306',
-    'database' => 'scandiweb',
-    'username' => 'root',
-    'password' => '',
+    'database' => 'if0_37434557_scandiweb',
+    'username' => 'if0_37434557',
+    'password' => 'YMh3uOo0PGxQ',
     'charset' => 'utf8',
 ];
