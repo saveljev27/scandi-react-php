@@ -36,6 +36,7 @@ export interface ProductProps {
 
 export interface InputProps {
   name: string;
+  type?: string;
   placeholder: string;
   value: string;
   onChange: (name: string, value: string) => void;

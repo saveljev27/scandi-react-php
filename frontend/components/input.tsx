@@ -7,6 +7,7 @@ export const Input = ({
   value,
   onChange,
   errors,
+  type,
 }: InputProps) => {
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = event.target;
@@ -16,7 +17,7 @@ export const Input = ({
   return (
     <div className="mb-3">
       <input
-        type="text"
+        type={type ? type : 'text'}
         value={value}
         placeholder={placeholder}
         id={name}

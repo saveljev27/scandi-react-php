@@ -5,7 +5,6 @@ namespace App\Core\Router;
 use App\Core\Database\DatabaseInterface;
 use App\Core\Http\RedirectInterface;
 use App\Core\Http\RequestInterface;
-use App\Core\Session\SessionInterface;
 
 class Router implements RouterInterface
 {

@@ -24,7 +24,6 @@ class BookProduct extends Product
         return 'Book';
     }
 
-    // Возвращаем специфические данные для книги
     protected function getSpecificData(): array
     {
         return ['weight' => $this->weight];

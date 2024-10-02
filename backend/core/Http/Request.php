@@ -3,7 +3,7 @@
 namespace App\Core\Http;
 
 use App\Core\Validator\ValidatorInterface;
-// Working with request data
+
 class Request implements RequestInterface
 {
     private ValidatorInterface $validator;

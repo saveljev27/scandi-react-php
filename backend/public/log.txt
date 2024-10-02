@@ -1,130 +1,10 @@
-Received deleted data: Array
-(
-    [0] => SKU21341
-    [1] => SKU23241
-)
-
-Received deleted data: Array
-(
-    [skus] => Array
-        (
-            [0] => 288
-        )
-
-)
-
-Received deleted data: Array
-(
-    [skus] => Array
-        (
-            [0] => 277
-            [1] => 657657
-        )
-
-)
-
-Received deleted data: Array
-(
-    [skus] => Array
-        (
-            [0] => 323
-        )
-
-)
-
-Received deleted data: Array
-(
-    [skus] => Array
-        (
-            [0] => 323
-        )
-
-)
-
-Received deleted data: Array
-(
-    [skus] => Array
-        (
-            [0] => 323
-        )
-
-)
-
-Received deleted data: Array
-(
-    [skus] => Array
-        (
-            [0] => test228
-            [1] => 3213
-        )
-
-)
-
-Received deleted data: Array
-(
-    [skus] => Array
-        (
-            [0] => 3213
-        )
-
-)
-
-Received deleted data: Array
-(
-    [skus] => Array
-        (
-            [0] => test
-        )
-
-)
-
-Received deleted data: Array
-(
-    [skus] => Array
-        (
-            [0] => SKU12342
-            [1] => test2996
-            [2] => test28
-        )
-
-)
-
-Received deleted data: Array
-(
-    [skus] => Array
-        (
-            [0] => test299
-            [1] => test29
-        )
-
-)
-
-Received deleted data: Array
-(
-    [skus] => Array
-        (
-            [0] => 765765
-        )
-
-)
-
-Received deleted data: Array
-(
-    [skus] => Array
-        (
-            [0] => test27
-            [1] => 3213
-        )
-
-)
-
 Array
 (
-    [sku] => tess22
-    [name] => tess22
-    [price] => tess22
+    [sku] => 3213s67
+    [name] => dsadsa
+    [price] => sadada
     [product_type] => DVD
-    [size] => 22
+    [size] => dsadsa
     [weight] => 
     [height] => 
     [width] => 
@@ -132,33 +12,11 @@ Array
 )
 Array
 (
-    [sku] => 2132
-    [name] => 32131
-    [price] => 123213
-    [product_type] => Book
-    [size] => 
-    [weight] => 123213
-    [height] => 
-    [width] => 
-    [length] => 
-)
-Received deleted data: Array
-(
-    [skus] => Array
-        (
-            [0] => 2132
-            [1] => tess22
-        )
-
-)
-
-Array
-(
-    [sku] => 
-    [name] => 
-    [price] => 
-    [product_type] => 
-    [size] => 
+    [sku] => 7657
+    [name] => 567
+    [price] => 756
+    [product_type] => DVD
+    [size] => 765
     [weight] => 
     [height] => 
     [width] => 
@@ -166,168 +24,58 @@ Array
 )
 Array
 (
-    [sku] => 
-    [name] => 
-    [price] => 
-    [product_type] => Book
-    [size] => 
-    [weight] => 
-    [height] => 
-    [width] => 
-    [length] => 
-)
-Array
-(
-    [sku] => tess22
-    [name] => 213213
-    [price] => 21321321
+    [sku] => 7657
+    [name] => 657
+    [price] => 756765
     [product_type] => Furniture
     [size] => 
     [weight] => 
-    [height] => 12321
-    [width] => 321
-    [length] => 3213
+    [height] => 765
+    [width] => 7657
+    [length] => 657
 )
 Array
 (
-    [sku] => tess22
-    [name] => 213213
-    [price] => 2132132
-    [product_type] => Book
-    [size] => 
-    [weight] => 3123
-    [height] => 
-    [width] => 
-    [length] => 
-)
-Array
-(
-    [sku] => tess221
-    [name] => 213213
-    [price] => 2132132
-    [product_type] => Book
-    [size] => 
-    [weight] => 3123
-    [height] => 
-    [width] => 
-    [length] => 
-)
-Received deleted data: Array
-(
-    [skus] => Array
-        (
-            [0] => tess221
-            [1] => tess22
-        )
-
-)
-
-Received deleted data: Array
-(
-    [skus] => Array
-        (
-            [0] => 312321
-        )
-
-)
-
-Array
-(
-    [sku] => 3213
-    [name] => Olegs Saveljevs
-    [price] => 213213
-    [product_type] => Book
-    [size] => 
-    [weight] => 27
-    [height] => 
-    [width] => 
-    [length] => 
-)
-Array
-(
-    [sku] => SKU1234
-    [name] => 12
-    [price] => 1221
-    [product_type] => Book
-    [size] => 
-    [weight] => 122121
-    [height] => 
-    [width] => 
-    [length] => 
-)
-Array
-(
-    [sku] => SKU12341
-    [name] => 122
-    [price] => 1221
-    [product_type] => Book
-    [size] => 
-    [weight] => 122121
-    [height] => 
-    [width] => 
-    [length] => 
-)
-Received deleted data: Array
-(
-    [skus] => Array
-        (
-            [0] => SKU12341
-            [1] => 3213
-        )
-
-)
-
-Received deleted data: Array
-(
-    [skus] => Array
-        (
-            [0] => SKU12341
-            [1] => 3213
-        )
-
-)
-
-Array
-(
-    [sku] => 
-    [name] => 
-    [price] => 
-    [product_type] => 
-    [size] => 
-    [weight] => 
-    [height] => 
-    [width] => 
-    [length] => 
-)
-Array
-(
-    [sku] => SKU21341
-    [name] => 123213
-    [price] => 213213
+    [sku] => 76577
+    [name] => 657
+    [price] => 756765
     [product_type] => Furniture
     [size] => 
     [weight] => 
-    [height] => 123213
-    [width] => 213
-    [length] => 21321312
+    [height] => 765
+    [width] => 7657
+    [length] => 657
 )
 Array
 (
-    [sku] => SKU213411
-    [name] => 123213
-    [price] => 213213
-    [product_type] => Furniture
+    [sku] => 7657
+    [name] => 65756
+    [price] => 7657
+    [product_type] => Book
     [size] => 
-    [weight] => 
-    [height] => 123213
-    [width] => 213
-    [length] => 21321312
+    [weight] => 756756
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => 7657756внпва
+    [name] => 65756
+    [price] => 7657
+    [product_type] => Book
+    [size] => 
+    [weight] => 756756
+    [height] => 
+    [width] => 
+    [length] => 
 )
 Received deleted data: Array
 (
     [skus] => Array
         (
-            [0] => SKU213411
+            [0] => 7657756внпва
+            [1] => 76577
         )
 
 )
@@ -335,55 +83,10 @@ Received deleted data: Array
 Array
 (
     [sku] => SKU1234
-    [name] => Olegs Saveljevs
-    [price] => 213213
-    [product_type] => Furniture
-    [size] => 
-    [weight] => 
-    [height] => 7657
-    [width] => 657
-    [length] => 56765
-)
-Array
-(
-    [sku] => SKU1234111
-    [name] => Olegs Saveljevs
-    [price] => 213213
-    [product_type] => Furniture
-    [size] => 
-    [weight] => 
-    [height] => 7657
-    [width] => 657
-    [length] => 56765
-)
-Received deleted data: Array
-(
-    [skus] => Array
-        (
-            [0] => SKU1234111
-        )
-
-)
-
-Array
-(
-    [sku] => 313213
-    [name] => 12321321
-    [price] => 321321
-    [product_type] => Furniture
-    [size] => 
-    [weight] => 
-    [height] => 32132
-    [width] => 1321
-    [length] => 31231312
-)
-Array
-(
-    [sku] => 3213
-    [name] => 21321
-    [price] => 321321
+    [name] => sadsa
+    [price] => asda
     [product_type] => DVD
-    [size] => 321321312
+    [size] => das
     [weight] => 
     [height] => 
     [width] => 
@@ -391,36 +94,84 @@ Array
 )
 Array
 (
-    [sku] => 213213
-    [name] => 21321
-    [price] => 32133213
-    [product_type] => Furniture
-    [size] => 
+    [sku] => SKU1234asds
+    [name] => sadsa
+    [price] => asda
+    [product_type] => DVD
+    [size] => das
     [weight] => 
-    [height] => 321321
-    [width] => 3213
-    [length] => 12312313
-)
-Array
-(
-    [sku] => 3213
-    [name] => 21312
-    [price] => 3213
-    [product_type] => Book
-    [size] => 
-    [weight] => 12321321312312
     [height] => 
     [width] => 
     [length] => 
 )
 Array
 (
-    [sku] => 32133123121
-    [name] => 21312
-    [price] => 3213
+    [sku] => SKU1234asds
+    [name] => sadsa
+    [price] => asda
+    [product_type] => DVD
+    [size] => das
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => SKU1234asds
+    [name] => sadsa
+    [price] => asda
+    [product_type] => DVD
+    [size] => das
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => SKU1234asds
+    [name] => sadsa
+    [price] => asda
+    [product_type] => DVD
+    [size] => das
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => SKU1234asds8
+    [name] => sadsa
+    [price] => asda
+    [product_type] => DVD
+    [size] => das
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => 7657
+    [name] => 765765765
+    [price] => 7657
     [product_type] => Book
     [size] => 
-    [weight] => 12321321312312
+    [weight] => 65756
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => 76576
+    [name] => 765765765
+    [price] => 7657
+    [product_type] => Book
+    [size] => 
+    [weight] => 65756
     [height] => 
     [width] => 
     [length] => 
@@ -429,12 +180,601 @@ Received deleted data: Array
 (
     [skus] => Array
         (
-            [0] => 213213
-            [1] => 313213
+            [0] => 76576
+            [1] => 7657
+            [2] => 765
         )
 
 )
 
+Array
+(
+    [sku] => 3213
+    [name] => dsad
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasd
+    [width] => sd
+    [length] => dsa
+)
+Array
+(
+    [sku] => 3213s
+    [name] => dsad
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasd
+    [width] => sd
+    [length] => dsa
+)
+Array
+(
+    [sku] => 3213s
+    [name] => dsad
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasd
+    [width] => sd
+    [length] => dsa
+)
+Array
+(
+    [sku] => 3213sss
+    [name] => dsad
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasd
+    [width] => sd
+    [length] => dsa
+)
+Array
+(
+    [sku] => 3213sss
+    [name] => dsad
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasd
+    [width] => sd
+    [length] => dsa
+)
+Array
+(
+    [sku] => dsadsa
+    [name] => dsad
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasd
+    [width] => sd
+    [length] => dsa
+)
+Array
+(
+    [sku] => dsa
+    [name] => dsad
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasd
+    [width] => sd
+    [length] => dsa
+)
+Array
+(
+    [sku] => dsads
+    [name] => dsad
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasd
+    [width] => sd
+    [length] => dsa
+)
+Array
+(
+    [sku] => dsads
+    [name] => dsad
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasd
+    [width] => sd
+    [length] => dsa
+)
+Array
+(
+    [sku] => dsads
+    [name] => dsad
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasd
+    [width] => sd
+    [length] => dsa
+)
+Array
+(
+    [sku] => dsads
+    [name] => dsad
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasd
+    [width] => sd
+    [length] => dsa
+)
+Array
+(
+    [sku] => dsads
+    [name] => dsad
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasd
+    [width] => sd
+    [length] => dsa
+)
+Array
+(
+    [sku] => dsads
+    [name] => dsad
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasd
+    [width] => sd
+    [length] => dsa
+)
+Array
+(
+    [sku] => dsads
+    [name] => dsad
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasd
+    [width] => sd
+    [length] => dsa
+)
+Array
+(
+    [sku] => dsads
+    [name] => dsad
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasd
+    [width] => sd
+    [length] => dsa
+)
+Array
+(
+    [sku] => dsads
+    [name] => dsad
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasd
+    [width] => sd
+    [length] => dsa
+)
+Array
+(
+    [sku] => dsdsad
+    [name] => dsads
+    [price] => dsad
+    [product_type] => DVD
+    [size] => ddsad
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => dsdsad
+    [name] => dsads
+    [price] => dsad
+    [product_type] => DVD
+    [size] => ddsad
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => dsdsad
+    [name] => dsads
+    [price] => dsad
+    [product_type] => DVD
+    [size] => ddsaddsa
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => dsdsad
+    [name] => dsads
+    [price] => dsad
+    [product_type] => DVD
+    [size] => ddsaddsa
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => dsdsad
+    [name] => dsads
+    [price] => dsad
+    [product_type] => DVD
+    [size] => ddsaddsa
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => dsdsad
+    [name] => dsads
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => ddsaddsa
+    [weight] => 
+    [height] => dsad
+    [width] => dsad
+    [length] => asdsad
+)
+Array
+(
+    [sku] => dsdsad
+    [name] => dsads
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => ddsaddsa
+    [weight] => 
+    [height] => dsad
+    [width] => dsad
+    [length] => asdsad
+)
+Array
+(
+    [sku] => dsdsad
+    [name] => dsads
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => ddsaddsa
+    [weight] => 
+    [height] => dsad
+    [width] => dsad
+    [length] => asdsad
+)
+Array
+(
+    [sku] => dsdsad
+    [name] => dsads
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => ddsaddsa
+    [weight] => 
+    [height] => dsad
+    [width] => dsad
+    [length] => asdsad
+)
+Array
+(
+    [sku] => dsdsad
+    [name] => dsads
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => ddsaddsa
+    [weight] => 
+    [height] => dsad
+    [width] => dsad
+    [length] => asdsad
+)
+Array
+(
+    [sku] => dsdsad
+    [name] => dsads
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => ddsaddsa
+    [weight] => 
+    [height] => dsad
+    [width] => dsad
+    [length] => asdsad
+)
+Array
+(
+    [sku] => dsdsad
+    [name] => dsads
+    [price] => dsad
+    [product_type] => Furniture
+    [size] => ddsaddsa
+    [weight] => 
+    [height] => dsad
+    [width] => dsad
+    [length] => asdsad
+)
+Array
+(
+    [sku] => dsada
+    [name] => Olegs Saveljevsdsa
+    [price] => dsadd
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasda
+    [width] => dasda
+    [length] => das
+)
+Array
+(
+    [sku] => dsada
+    [name] => Olegs Saveljevsdsa
+    [price] => dsadd
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasda
+    [width] => dasda
+    [length] => das
+)
+Array
+(
+    [sku] => dsada
+    [name] => Olegs Saveljevsdsa
+    [price] => dsadd
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasda
+    [width] => dasda
+    [length] => das
+)
+Array
+(
+    [sku] => dsada
+    [name] => Olegs Saveljevsdsa
+    [price] => dsadd
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasda
+    [width] => dasda
+    [length] => das
+)
+Array
+(
+    [sku] => dsada
+    [name] => Olegs Saveljevsdsa
+    [price] => dsadd
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasda
+    [width] => dasda
+    [length] => das
+)
+Array
+(
+    [sku] => dsada
+    [name] => Olegs Saveljevsdsa
+    [price] => dsadd
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dasda
+    [width] => dasda
+    [length] => das
+)
+Array
+(
+    [sku] => dsada
+    [name] => dssada
+    [price] => sadsad
+    [product_type] => DVD
+    [size] => ddsad
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => dsd
+    [name] => dsad
+    [price] => dsadsa
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dsa
+    [width] => dsda
+    [length] => das
+)
+Array
+(
+    [sku] => dsd
+    [name] => dsad
+    [price] => dsadsa
+    [product_type] => Furniture
+    [size] => 
+    [weight] => 
+    [height] => dsa
+    [width] => dsda
+    [length] => das
+)
+Array
+(
+    [sku] => fsdaf
+    [name] => fdsf
+    [price] => sdfdsf
+    [product_type] => Book
+    [size] => 
+    [weight] => fsdfs
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => SKY123
+    [name] => 3213
+    [price] => 23213
+    [product_type] => Book
+    [size] => 
+    [weight] => 321312
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => ASDAD
+    [name] => SADSA
+    [price] => DSAD
+    [product_type] => DVD
+    [size] => DSAD
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => ASDAD
+    [name] => SADSA
+    [price] => DSAD
+    [product_type] => DVD
+    [size] => DSAD
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => ASDAD
+    [name] => SADSA
+    [price] => DSAD
+    [product_type] => DVD
+    [size] => DSAD
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => ASDAD
+    [name] => SADSA
+    [price] => DSAD
+    [product_type] => DVD
+    [size] => 55
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => 3213
+    [name] => Olegs Saveljevs
+    [price] => fd
+    [product_type] => DVD
+    [size] => sdf
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => 321312
+    [name] => Olegs Saveljevs
+    [price] => fd
+    [product_type] => DVD
+    [size] => sdf
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => 321312
+    [name] => Olegs Saveljevs
+    [price] => fd
+    [product_type] => DVD
+    [size] => 123
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => 321312
+    [name] => Olegs Saveljevs
+    [price] => fd
+    [product_type] => DVD
+    [size] => 123
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => 12313
+    [name] => 3123
+    [price] => 3123
+    [product_type] => DVD
+    [size] => 
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => 12313
+    [name] => 3123
+    [price] => 3123
+    [product_type] => DVD
+    [size] => 123123
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
 Array
 (
     [sku] => 
@@ -449,35 +789,23 @@ Array
 )
 Array
 (
-    [sku] => 87667
-    [name] => 67867
-    [price] => 678678
+    [sku] => 3213
+    [name] => 12321
+    [price] => 3213
     [product_type] => DVD
-    [size] => 678768
-    [weight] => 
-    [height] => 
-    [width] => 
-    [length] => 
-)
-Array
-(
-    [sku] => 67876
-    [name] => 6787
-    [price] => 76876
-    [product_type] => Furniture
     [size] => 
     [weight] => 
-    [height] => 768768
-    [width] => 321321
-    [length] => 321312
+    [height] => 
+    [width] => 
+    [length] => 
 )
 Array
 (
-    [sku] => 67876
-    [name] => 321321
-    [price] => 3213213
+    [sku] => 3213
+    [name] => 12321
+    [price] => 3213
     [product_type] => DVD
-    [size] => 321321
+    [size] => 123
     [weight] => 
     [height] => 
     [width] => 
@@ -485,11 +813,23 @@ Array
 )
 Array
 (
-    [sku] => 678761
-    [name] => 321321
-    [price] => 3213213
+    [sku] => 32132
+    [name] => 12321
+    [price] => 3213
     [product_type] => DVD
-    [size] => 321321
+    [size] => 123
+    [weight] => 
+    [height] => 
+    [width] => 
+    [length] => 
+)
+Array
+(
+    [sku] => 32131
+    [name] => 3213131asda da      asd
+    [price] => dsada
+    [product_type] => DVD
+    [size] => 123
     [weight] => 
     [height] => 
     [width] => 
@@ -499,38 +839,11 @@ Received deleted data: Array
 (
     [skus] => Array
         (
-            [0] => 67876
-            [1] => 678761
-        )
-
-)
-
-Array
-(
-    [sku] => 76575
-    [name] => 7657
-    [price] => 657657
-    [product_type] => Book
-    [size] => 
-    [weight] => 7657567
-    [height] => 
-    [width] => 
-    [length] => 
-)
-Received deleted data: Array
-(
-    [skus] => Array
-        (
-            [0] => 76575
-            [1] => 87667
-        )
-
-)
-
-Received deleted data: Array
-(
-    [skus] => Array
-        (
+            [0] => 32131
+            [1] => 32132
+            [2] => 433
+            [3] => 3231
+            [4] => SKY123
         )
 
 )

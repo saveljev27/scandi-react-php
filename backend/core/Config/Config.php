@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Core\Config;
-// Get configuration
+
 class Config implements ConfigInterface
 {
     public function get(string $key, $default = null): mixed

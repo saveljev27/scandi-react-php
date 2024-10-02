@@ -13,14 +13,9 @@ use App\Core\Router\Router;
 use App\Core\Router\RouterInterface;
 use App\Core\Validator\Validator;
 use App\Core\Validator\ValidatorInterface;
-use App\Core\View\View;
-use App\Core\View\ViewInterface;
-use App\Core\Session\Session;
-use App\Core\Session\SessionInterface;
 use App\Core\Config\Config;
 use App\Services\ProductService;
 
-// Instances of various services
 class Container
 {
     // Services

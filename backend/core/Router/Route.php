@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Core\Router;
-// Handling HTTP requests and defining routes
+
 class Route
 {
     public function __construct(

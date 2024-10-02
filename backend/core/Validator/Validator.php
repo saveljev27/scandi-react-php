@@ -8,7 +8,7 @@ class Validator implements ValidatorInterface
 {
     private array $errors = [];
     private array $data;
-    private ProductService $productService; // Зависимость от сервиса продукта
+    private ProductService $productService;
 
     public function __construct(ProductService $productService)
     {
