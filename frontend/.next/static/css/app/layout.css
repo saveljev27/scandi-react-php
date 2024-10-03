@@ -74,7 +74,7 @@ body {
   }
 }
 
-#products-form {
+#product_form {
   min-height: 100vh;
 }
 
@@ -117,7 +117,7 @@ body {
   width: 30%;
   margin: 25px 0px;
 }
-.form input[type=text] {
+.form input[type='text'] {
   width: 300px;
 }
 .form label {
@@ -148,7 +148,8 @@ body {
 }
 .footer p {
   margin-bottom: 0;
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
+
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./node_modules/bootstrap/dist/css/bootstrap.css ***!
   \*******************************************************************************************************************************************************************************************************************************************************************************************/
