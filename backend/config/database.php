@@ -2,10 +2,10 @@
 
 return [
     'driver' => 'mysql',
-    'host' => 'sql208.infinityfree.com',
+    'host' => 'fdb1029.awardspace.net',
     'port' => '3306',
-    'database' => 'if0_37434557_scandiweb',
-    'username' => 'if0_37434557',
-    'password' => 'YMh3uOo0PGxQ',
+    'database' => '4535653_scandiweb',
+    'username' => '4535653_scandiweb',
+    'password' => 'sN11oQ{B2F1Li{7h',
     'charset' => 'utf8',
 ];
