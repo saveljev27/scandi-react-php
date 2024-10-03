@@ -1,8 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import { Alert, Input } from '@/components';
-import { useAddProduct } from '@/hooks/useAddProduct';
+import { useAddProduct } from '../hooks/useAddProduct';
+import { Alert, Input } from '../components';
 
 const ProductForm = () => {
   const { errors, formData, setFormData, handleSubmit, handleInputChange } =

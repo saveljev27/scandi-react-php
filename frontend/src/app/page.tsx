@@ -1,8 +1,8 @@
 'use client';
 
-import { ProductCard } from '@/components/';
-import { useProducts } from '@/hooks/useProducts';
 import Link from 'next/link';
+import { useProducts } from './hooks/useProducts';
+import { ProductCard } from './components';
 
 export default function Home() {
   const { products, handleCheckBoxChange, handleDelete } = useProducts();
