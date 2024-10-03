@@ -3,14 +3,9 @@
 import Link from 'next/link';
 import { useProducts } from './hooks/useProducts';
 import { ProductCard } from './components';
-import { useEffect } from 'react';
 
 export default function Home() {
   const { products, handleCheckBoxChange, handleDelete } = useProducts();
-
-  useEffect(() => {
-    console.log('Page loaded with products:', products);
-  }, [products]);
 
   return (
     <form id="product_form" className="container" onSubmit={handleDelete}>
