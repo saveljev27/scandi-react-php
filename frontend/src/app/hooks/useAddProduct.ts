@@ -9,24 +9,24 @@ export const useAddProduct = () => {
   const [formData, setFormData] = useState<ProductFormProps>(defaultFormData);
   const router = useRouter();
 
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    const validationErrors = validateForm(formData);
+  const handleSubmit = async () => {
+    // const validationErrors = validateForm(formData);
 
-    if (Object.keys(validationErrors).length > 0) {
-      setErrors(validationErrors);
-      return;
-    }
+    // if (Object.keys(validationErrors).length > 0) {
+    //   setErrors(validationErrors);
+    //   return;
+    // }
     try {
       const response = await addProduct({ formData });
       const data = await response.json();
 
       if (!response.ok) {
         setErrors(data.errors);
+        return;
       } else {
         setFormData(defaultFormData);
         setErrors({});
-        window.location.href = '/';
+        router.push('/');
       }
     } catch (error) {}
   };
