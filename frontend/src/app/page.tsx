@@ -27,13 +27,17 @@ export default function Home() {
         </div>
       </div>
       <div className="content product-list">
-        {products.map((product) => (
-          <ProductCard
-            key={product.sku}
-            product={product}
-            onChange={handleCheckBoxChange}
-          />
-        ))}
+        {products.length > 0 ? (
+          products.map((product) => (
+            <ProductCard
+              key={product.sku}
+              product={product}
+              onChange={handleCheckBoxChange}
+            />
+          ))
+        ) : (
+          <div>No products available.</div>
+        )}
       </div>
     </form>
   );
