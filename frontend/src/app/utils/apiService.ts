@@ -1,7 +1,16 @@
 import { ProductFormProps } from '../types';
 
 export const fetchProducts = async () => {
-  const response = await fetch('https://scandiweb-test.000.pe/api/products');
+  const response = await fetch('https://scandiweb-test.000.pe/api/products', {
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  });
+
+  if (!response.ok) {
+    throw new Error('Failed to fetch products');
+  }
+
   return response.json();
 };
 
