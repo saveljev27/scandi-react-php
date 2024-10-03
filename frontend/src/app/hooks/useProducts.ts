@@ -5,13 +5,18 @@ import { ProductProps } from '../types';
 export const useProducts = () => {
   const [products, setProducts] = useState<ProductProps[]>([]);
   const [checkedProducts, setCheckedProducts] = useState<string[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const getProducts = async () => {
       try {
         const data = await fetchProducts();
         setProducts(data);
-      } catch (error) {}
+      } catch (error) {
+        console.error(error);
+      } finally {
+        setIsLoading(false);
+      }
     };
 
     getProducts();
@@ -32,5 +37,5 @@ export const useProducts = () => {
     );
   };
 
-  return { products, handleCheckBoxChange, handleDelete };
+  return { products, isLoading, handleCheckBoxChange, handleDelete };
 };
