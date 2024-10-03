@@ -8,7 +8,7 @@ export default function Home() {
   const { products, handleCheckBoxChange, handleDelete } = useProducts();
 
   return (
-    <div className="container">
+    <form id="product_form" className="container" onSubmit={handleDelete}>
       <div className="header">
         <h1>Product List</h1>
         <div className="header__buttons">
@@ -26,17 +26,15 @@ export default function Home() {
           </button>
         </div>
       </div>
-      <form id="product_form" onSubmit={handleDelete}>
-        <div className="content product-list">
-          {products.map((product) => (
-            <ProductCard
-              key={product.sku}
-              product={product}
-              onChange={handleCheckBoxChange}
-            />
-          ))}
-        </div>
-      </form>
-    </div>
+      <div className="content product-list">
+        {products.map((product) => (
+          <ProductCard
+            key={product.sku}
+            product={product}
+            onChange={handleCheckBoxChange}
+          />
+        ))}
+      </div>
+    </form>
   );
 }
