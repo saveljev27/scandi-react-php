@@ -78,7 +78,7 @@ const ProductForm = () => {
             <p className="fw-light mb-0">Please, provide DVD size in MB</p>
             <Input
               name="size"
-              type="number"
+              type="text"
               placeholder="Size (MB)"
               value={formData.size || ''}
               onChange={handleInputChange}
@@ -91,7 +91,7 @@ const ProductForm = () => {
             <p className="fw-light mb-0">Please, provide Book weight in KG</p>
             <Input
               name="weight"
-              type="number"
+              type="text"
               placeholder="Weight (KG)"
               value={formData.weight || ''}
               onChange={handleInputChange}
@@ -106,7 +106,7 @@ const ProductForm = () => {
             </p>
             <Input
               name="height"
-              type="number"
+              type="text"
               placeholder="Height (CM)"
               value={formData.height || ''}
               onChange={handleInputChange}
@@ -114,7 +114,7 @@ const ProductForm = () => {
             />
             <Input
               name="width"
-              type="number"
+              type="text"
               placeholder="Width (CM)"
               value={formData.width || ''}
               onChange={handleInputChange}
@@ -122,7 +122,7 @@ const ProductForm = () => {
             />
             <Input
               name="length"
-              type="number"
+              type="text"
               placeholder="Length (CM)"
               value={formData.length || ''}
               onChange={handleInputChange}

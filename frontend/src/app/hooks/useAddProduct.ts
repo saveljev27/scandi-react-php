@@ -11,12 +11,12 @@ export const useAddProduct = () => {
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    // const validationErrors = validateForm(formData);
+    const validationErrors = validateForm(formData);
 
-    // if (Object.keys(validationErrors).length > 0) {
-    //   setErrors(validationErrors);
-    //   return;
-    // }
+    if (Object.keys(validationErrors).length > 0) {
+      setErrors(validationErrors);
+      return;
+    }
     try {
       const response = await addProduct({ formData });
       const data = await response.json();
