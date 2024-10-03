@@ -5,8 +5,7 @@ import { useProducts } from './hooks/useProducts';
 import { ProductCard } from './components';
 
 export default function Home() {
-  const { products, isLoading, handleCheckBoxChange, handleDelete } =
-    useProducts();
+  const { products, handleCheckBoxChange, handleDelete } = useProducts();
 
   return (
     <form id="product_form" className="container" onSubmit={handleDelete}>
@@ -27,19 +26,14 @@ export default function Home() {
           </button>
         </div>
       </div>
-
       <div className="content product-list">
-        {isLoading ? (
-          <div>Loading products...</div>
-        ) : (
-          products.map((product) => (
-            <ProductCard
-              key={product.sku}
-              product={product}
-              onChange={handleCheckBoxChange}
-            />
-          ))
-        )}
+        {products.map((product) => (
+          <ProductCard
+            key={product.sku}
+            product={product}
+            onChange={handleCheckBoxChange}
+          />
+        ))}
       </div>
     </form>
   );
