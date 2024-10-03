@@ -9,16 +9,11 @@ const ProductForm = () => {
     useAddProduct();
 
   return (
-    <form id="product_form" className="container">
+    <form id="product_form" className="container" onSubmit={handleSubmit}>
       <div className="header">
         <h1>Product Add</h1>
         <div className="header__buttons">
-          <button
-            id="add-product"
-            className="btn btn-secondary"
-            onClick={handleSubmit}
-            type="button"
-          >
+          <button id="add-product" type="submit" className="btn btn-secondary">
             Save
           </button>
           <Link href="/">
