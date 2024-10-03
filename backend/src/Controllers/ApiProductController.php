@@ -20,9 +20,7 @@ class ApiProductController extends Controller
 
     public function getProducts(): void
     {
-
         $products = $this->productService->showProducts();
-
 
         $response = array_map(function ($product) {
 
@@ -68,7 +66,6 @@ class ApiProductController extends Controller
     public function deleteProducts(): void
     {
         $data = json_decode(file_get_contents('php://input'), true);
-        file_put_contents('log.txt', "Received deleted data: " . print_r($data, true) . PHP_EOL, FILE_APPEND);
 
         $this->productService->deleteProducts($data['skus']);
         header('Content-Type: application/json');
