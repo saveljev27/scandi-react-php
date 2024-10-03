@@ -28,7 +28,7 @@ export const ProductCard = ({ product, onChange }: ProductCardProps) => {
         <span className="bold">Name: {product.name}</span>
       </span>
       <span>
-        <span className="bold">Price: €{product.price}</span>
+        <span className="bold">Price: € {product.price}</span>
       </span>
       <span className="bold">
         {Object.entries(product.details).map(
