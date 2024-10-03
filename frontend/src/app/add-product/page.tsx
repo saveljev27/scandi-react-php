@@ -9,7 +9,7 @@ const ProductForm = () => {
     useAddProduct();
 
   return (
-    <form id="products-form" className="container" onSubmit={handleSubmit}>
+    <form id="product-form" className="container" onSubmit={handleSubmit}>
       <div className="header">
         <h1>Product Add</h1>
         <div className="header__buttons">

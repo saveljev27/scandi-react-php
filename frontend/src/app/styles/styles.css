@@ -70,7 +70,7 @@ body {
   }
 }
 
-#products-form {
+#product-form {
   min-height: 100vh;
 }
 
@@ -113,7 +113,7 @@ body {
   width: 30%;
   margin: 25px 0px;
 }
-.form input[type=text] {
+.form input[type='text'] {
   width: 300px;
 }
 .form label {
@@ -144,4 +144,4 @@ body {
 }
 .footer p {
   margin-bottom: 0;
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
