@@ -1,8 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  api: {
-    baseUrl: 'https://scandi-assignment.onlinewebshop.net',
-  },
-};
+const nextConfig = {};
 
 export default nextConfig;

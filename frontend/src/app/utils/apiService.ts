@@ -1,8 +1,6 @@
-import getConfig from 'next/config';
 import { ProductFormProps } from '../types';
 
-const { api } = getConfig();
-const baseUrl = api?.baseUrl;
+const baseUrl = process.env.NEXT_PUBLIC_API_URL;
 
 export const fetchProducts = async () => {
   const response = await fetch(`${baseUrl}/api/products`);
