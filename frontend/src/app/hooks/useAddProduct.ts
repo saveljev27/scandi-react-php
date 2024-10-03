@@ -26,7 +26,7 @@ export const useAddProduct = () => {
       } else {
         setFormData(defaultFormData);
         setErrors({});
-        router.push('/');
+        window.location.href = '/';
       }
     } catch (error) {}
   };

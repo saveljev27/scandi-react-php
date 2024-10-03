@@ -22,13 +22,13 @@ export const ProductCard = ({ product, onChange }: ProductCardProps) => {
         onChange={handleDelete}
       />
       <span>
-        <span className="bold">{product.sku}</span>
+        <span className="bold">SKU: {product.sku}</span>
       </span>
       <span>
-        <span className="bold">{product.name}</span>
+        <span className="bold">Name: {product.name}</span>
       </span>
       <span>
-        <span className="bold">{product.price}</span>
+        <span className="bold">Price: €{product.price}</span>
       </span>
       <span className="bold">
         {Object.entries(product.details).map(

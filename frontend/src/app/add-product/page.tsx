@@ -66,15 +66,9 @@ const ProductForm = () => {
             <option value="" disabled>
               Select Type
             </option>
-            <option label="DVD" value="DVD">
-              DVD
-            </option>
-            <option label="Book" value="Book">
-              Book
-            </option>
-            <option label="Furniture" value="Furniture">
-              Furniture
-            </option>
+            <option value="DVD">DVD</option>
+            <option value="Book">Book</option>
+            <option value="Furniture">Furniture</option>
           </select>
           <Alert errors={errors['product_type']} />
         </div>
