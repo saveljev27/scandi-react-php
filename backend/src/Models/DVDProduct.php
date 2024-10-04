@@ -14,11 +14,6 @@ class DVDProduct extends Product
         $this->size = $size;
     }
 
-    public function getSize(): int
-    {
-        return $this->size;
-    }
-
     protected function getProductType(): string
     {
         return 'DVD';

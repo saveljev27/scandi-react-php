@@ -4,11 +4,8 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-
 define('APP_PATH', __DIR__);
-
 require __DIR__ . '/vendor/autoload.php';
-
 require __DIR__ . '/config/bootstrap.php';
 
 

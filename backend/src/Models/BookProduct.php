@@ -14,11 +14,6 @@ class BookProduct extends Product
         $this->weight = $weight;
     }
 
-    public function getWeight(): float
-    {
-        return $this->weight;
-    }
-
     protected function getProductType(): string
     {
         return 'Book';

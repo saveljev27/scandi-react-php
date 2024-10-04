@@ -18,11 +18,6 @@ class FurnitureProduct extends Product
         $this->length = $length;
     }
 
-    public function getHeight(): int
-    {
-        return $this->height;
-    }
-
     protected function getProductType(): string
     {
         return 'Furniture';
