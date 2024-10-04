@@ -8,7 +8,7 @@ export default function Home() {
   const { products, handleCheckBoxChange, handleDelete } = useProducts();
 
   return (
-    <form id="product_form" className="container" onSubmit={handleDelete}>
+    <form id="product_form" onSubmit={handleDelete}>
       <div className="header">
         <h1>Product List</h1>
         <div className="header__buttons">
