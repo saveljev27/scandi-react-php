@@ -2,7 +2,7 @@
 
 return [
     'driver' => 'mysql',
-    'host' => 'fdb1029.awardspace.net',
+    'host' => 'pdb1034.awardspace.net',
     'port' => '3306',
     'database' => '4535653_scandiweb',
     'username' => '4535653_scandiweb',
